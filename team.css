@@ -1,0 +1,137 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.top-header {
+  background-color: black;
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 20px;
+}
+
+.menu-header {
+  color: rgb(160, 160, 160);
+  text-decoration: none;
+  margin: 10px;
+  transition: 0.5s;
+}
+
+.menu-header:hover {
+  text-decoration: underline;
+  color: rgb(255, 255, 255);
+}
+
+.main-box-all {
+  border: 1px solid white;
+  max-width: 1500px;
+  margin: auto;
+}
+
+.box-pacific {
+  border: 1px solid rgba(0, 136, 255, 0.855);
+}
+
+.name-league {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.box-team {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.box-emea {
+  border: 1px solid rgba(174, 255, 0, 0.855);
+}
+
+.box-americas {
+  border: 1px solid rgba(255, 119, 0, 0.855);
+}
+
+.box-china {
+  border: 1px solid rgba(0, 136, 255, 0.855);
+}
+
+/* การ์ดหลัก */
+.team-card {
+  width: 360px;
+  background: #1b1b1f00;
+  border-radius: 14px;
+  color: white;
+  margin-bottom: 16px;
+  overflow: hidden;
+}
+
+.team-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px;
+  cursor: pointer;
+  background: #26263a;
+}
+
+.logo {
+  width: 40px;
+  height: 30px;
+}
+
+.team-name {
+  flex: 1;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.status {
+  background: #111;
+  color: white;
+  border: 1px solid #333;
+  padding: 4px 10px;
+  border-radius: 6px;
+}
+
+.arrow {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 18px;
+  transition: transform 0.3s;
+}
+
+.team-body {
+  display: none;
+  padding: 10px;
+  background: #26263a;
+  border: 1px solid white;
+}
+
+.team-body.show {
+  display: block;
+}
+
+.arrow.rotate {
+  transform: rotate(180deg);
+}
+
+.member {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 10px;
+  background: #202025;
+  border-radius: 8px;
+  margin-bottom: 6px;
+}
+
+.role {
+  background: #2c2c32;
+  padding: 2px 8px;
+  border-radius: 6px;
+  font-size: 12px;
+}
