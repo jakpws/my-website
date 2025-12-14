@@ -25,13 +25,18 @@ body {
 }
 
 .main-box-all {
-  border: 1px solid white;
-  max-width: 1500px;
+  max-width: 1475px;
   margin: auto;
 }
 
 .box-pacific {
-  border: 1px solid rgba(0, 136, 255, 0.855);
+  border: 2px solid rgba(255, 255, 255, 0.855);
+  margin-bottom: 20px;
+  transition: 0.5s;
+}
+
+.box-pacific:hover {
+  border: 2px solid rgba(0, 136, 255, 0.855);
 }
 
 .name-league {
@@ -48,15 +53,32 @@ body {
 }
 
 .box-emea {
-  border: 1px solid rgba(174, 255, 0, 0.855);
+  border: 2px solid rgba(255, 255, 255, 0.855);
+  margin-bottom: 20px;
+  transition: 0.5s;
+}
+
+.box-emea:hover {
+  border: 2px solid rgba(174, 255, 0, 0.855);
 }
 
 .box-americas {
-  border: 1px solid rgba(255, 119, 0, 0.855);
+  border: 2px solid rgba(255, 255, 255, 0.855);
+  margin-bottom: 20px;
+  transition: 0.5s;
+}
+
+.box-americas:hover {
+  border: 2px solid rgba(255, 119, 0, 0.855);
 }
 
 .box-china {
-  border: 1px solid rgba(0, 136, 255, 0.855);
+  border: 2px solid rgba(255, 255, 255, 0.855);
+  transition: 0.5s;
+}
+
+.box-china:hover {
+  border: 2px solid rgba(255, 0, 0, 0.855);
 }
 
 /* การ์ดหลัก */
